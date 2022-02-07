@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Lalezar";
+  src: url("./Lalezar-Regular.ttf");
+}
+body,
+html {
+  margin: 0;
+  background-color: #f8f9fd;
+}
+ul {
+  font-weight: bold;
+}
+
+.nav-link-root {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #464646;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.btn-primary {
+  position: relative;
+  bottom: 0;
+  background-color: #3979d9;
+}
+.btn-primary:hover {
+  position: relative;
+  bottom: 6px;
+  transition: 0.3s;
+}
+
+.offcanvas {
+  width: 100vw;
+  background-color: #83aef0e7;
+}
+
+.offcanvas-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 1rem 1rem;
+}
+
+.offcanvas-root {
+  background-color: #464646;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  color: #fff;
+}
+
+#myimage {
+  background-image: url("https://neshan.org/wp-content/uploads/2021/06/tehran.jpg");
+  /* Full height */
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* body {
+  
+    background: url('./tehran.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.m-root {
+  margin-top: 10rem;
+
+  margin-left: 18rem;
+}
+#img-root {
+  text-align: end;
+}
+#img-root-two {
+  text-align: start;
+}
+
+.myInput {
+  border-radius: 3rem;
+  padding: 0.3rem;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .m-root {
+    margin-top: 10rem;
+
+    margin-left: 12rem;
+  }
+  #img-root {
+    text-align: center;
+  }
+  #div-root {
+    text-align: center;
+  }
+  #img-root-two {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .fdxs {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) {
+  .m-root {
+    margin-top: 10rem;
+
+    margin-left: 12rem;
+  }
+  #img-root {
+    text-align: center;
+  }
+  #img-root-two {
+    text-align: center;
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .m-root {
+    margin-top: 10rem;
+
+    margin-left: 16rem;
+  }
+
+  #img-root {
+    text-align: end;
+    padding: 3rem;
+  }
+  #img-root-two {
+    text-align: start;
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .m-root {
+    margin-top: 10rem;
+    margin-left: 16rem;
+  }
+  #img-root {
+    text-align: end;
+  }
+  #img-root-two {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .m-root {
+    margin-top: 10rem;
+    margin-left: 18rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .m-root {
+    margin-top: 10rem;
+    margin-left: 18rem;
+  }
+  #img-root {
+    text-align: end;
+  }
+}
+
+.rounded-3 {
+  border-radius: 1.2999999999999998rem !important;
+}
+
+.elementor-icon {
+  width: 6%;
+
+  border-radius: 100%;
+}
+
+.elementor-icon:hover {
+  background-color: #3979d9;
+}
+
+.rootBtn {
+  box-sizing: content-box;
+  display: flex;
+  width: 40%;
+  height:1vh;
+  text-decoration: none;
+  background-color: #f8f8f8;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 0.2rem solid rgb(0, 81, 255);
+  font-weight: bold;
+  transition: all ease .3s;
+
+
+}
+
+
+#myIconOne {
+
+  transition: 0.5s;
+
+}
+.rootBtn:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all ease .3s;
+
+}
+#myIconOne:hover {
+  transform: translate(-5px,0px);
+  color: #3979D9;
+  transition: all ease .3s;
+
+}
